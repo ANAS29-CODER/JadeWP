@@ -1,0 +1,375 @@
+.header-img-wrapper .about-us-header-img {
+    width: 100%;
+    height: 38.88888889vw;
+}
+
+.jade-img-wrapper {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+.jade-img-wrapper .eng-jade-bg {
+    width: 90%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0;
+    min-width: 300px;
+}
+.jade-img-wrapper .eng-jade {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    min-width: 300px;
+}
+.about-jade-details {
+    width: 50vw;
+    padding: 0px 38px;
+}
+.about-jade-details h3 {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 2.813rem;
+    line-height: 3.25rem;
+    color: var(--black-color);
+    margin-bottom: 3vw;
+    min-width: 300px;
+}
+.about-jade-details p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 160%;
+    min-width: 300px;
+}
+.about-us-swipper {
+    margin-bottom: 6.25vw;
+    height: 372px;
+}
+
+.about-us-swipper .custom-swiper-container {
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative !important;
+}
+
+.about-us-swipper .custom-swiper-container .swiper-container {
+    width: 84% !important;
+    height: 100% !important;
+    padding: 0 0.5% !important;
+    overflow: hidden !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.about-us-swipper
+    .custom-swiper-container
+    .swiper-container
+    .swiper-wrapper
+    .swiper-slide {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.about-us-swipper
+    .custom-swiper-container
+    .swiper-container
+    .swiper-wrapper
+    .swiper-slide
+    .swiper-slide-blue-bg {
+    display: block;
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    background-color: var(--primary-color);
+    padding: 20px !important;
+}
+.about-us-swipper
+    .custom-swiper-container
+    .swiper-container
+    .swiper-wrapper
+    .swiper-slide
+    .swiper-slide-bg {
+    display: block;
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12) !important;
+}
+
+.about-us-swipper
+    .custom-swiper-container
+    .swiper-container
+    .swiper-wrapper
+    .swiper-slide
+    .swiper-slide-bg
+    .slide-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-swipper
+    .custom-swiper-container
+    .swiper-container
+    .swiper-wrapper
+    .swiper-slide
+    .swiper-slide-bg
+    .slide-text
+    h3 {
+    margin-top: 0;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1.563rem;
+    line-height: 3.25rem;
+    color: var(--primary-color);
+}
+.about-us-swipper
+    .custom-swiper-container
+    .swiper-container
+    .swiper-wrapper
+    .swiper-slide
+    .swiper-slide-blue-bg
+    .slide-text {
+    border: 1px solid #037fd0;
+    height: 100%;
+    padding: 5px;
+    padding-left: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans";
+    color: var(--white-color);
+}
+.about-us-swipper
+    .custom-swiper-container
+    .swiper-container
+    .swiper-wrapper
+    .swiper-slide
+    .swiper-slide-blue-bg
+    .slide-text
+    h3 {
+    margin-top: 0;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 1.563rem;
+    line-height: 3.25rem;
+}
+.about-us-swipper
+    .custom-swiper-container
+    .swiper-container
+    .swiper-wrapper
+    .swiper-slide
+    .swiper-slide-blue-bg
+    .slide-text
+    .divider {
+    width: 60px;
+    height: 2px;
+    border: 2px solid #d9d9d9;
+    border-radius: 10px;
+    margin-bottom: 8px !important;
+    color: #d9d9d9;
+}
+
+.about-us-swipper
+    .custom-swiper-container
+    .swiper-container
+    .swiper-wrapper
+    .swiper-slide
+    .swiper-slide-blue-bg
+    .slide-text
+    p {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+}
+
+
+
+.swiper-button-prev::after {
+    content: url('../assets/icons/swipper-arrow-left.svg') !important;
+    line-height: 0px !important;
+}
+.swiper-button-next::after {
+    content: url('../assets/icons/swipper-arrow-right.svg') !important;
+    line-height: 0px !important;
+}
+.swiper-button-prev {
+    /* top: 0px !important; */
+    left: 3% !important;
+}
+.swiper-button-next {
+    /* top: 0px !important; */
+    right: 3% !important;
+}
+
+/* qa section style */
+.qa-wrapper {
+    width: 84%;
+    margin: 0 8.33vw;
+    margin-bottom:4.79vw ;
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.813rem;
+    line-height: 3.25rem;
+    color: var(--black-color);
+}
+.qa-wrapper .qa-section-title {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 2.813rem;
+    line-height: 3.25rem;
+    color: var(--black-color);
+    margin-bottom: 3.47vw;
+}
+.qa-wrapper .qa-item-wrapper {
+    border-bottom: 1px solid var(--gray-color);
+    padding-bottom: 4.86vw;
+    padding-top: 5vw;
+    flex-wrap: wrap;
+}
+.qa-wrapper .qa-item-wrapper .qa-item-inner-wrapper {
+    display: flex;
+    margin-left: 7%;
+    flex-wrap: wrap;
+}
+.qa-wrapper .qa-item-wrapper .qa-item-inner-wrapper .qa-element-img {
+    width: 215px;
+    height: 142px;
+}
+.qa-wrapper .qa-item-wrapper .qa-item-inner-wrapper .padding-bottom-20 {
+    padding-top: 20px;
+}
+.qa-wrapper .qa-item-wrapper .qa-item-inner-wrapper .qa-element-list {
+    width: 80%;
+    min-width: 300px;
+    padding: 0 4.44vw;
+}
+.qa-wrapper
+    .qa-item-wrapper
+    .qa-item-inner-wrapper
+    .qa-element-list-last-section {
+    width: 41.5vw;
+    padding-left: 5%;
+}
+.qa-wrapper .qa-item-wrapper .qa-item-inner-wrapper .qa-element-list li {
+    font-weight: 400;
+    font-size: 1.125rem;
+    font-family: "Open Sans";
+    line-height: 1.8rem;
+}
+.qa-wrapper
+    .qa-item-wrapper
+    .qa-item-inner-wrapper
+    .qa-element-list
+    .list-title {
+    font-weight: 700;
+    font-size: 1.563rem;
+    font-family: "Open Sans";
+    line-height: 2.625rem;
+}
+.qa-wrapper
+    .qa-item-wrapper
+    .qa-item-inner-wrapper
+    .qa-element-list
+    .qa-download-option {
+    display: flex;
+}
+
+.qa-wrapper
+    .qa-item-wrapper
+    .qa-item-inner-wrapper
+    .qa-element-list
+    .qa-download-option
+    .qa-download-option-one {
+    display: flex;
+    font-family: "Open Sans Condensed";
+    color: var(--gray-color);
+    margin-top: 5px;
+    margin-right:3.5vw
+}
+
+.qa-wrapper
+    .qa-item-wrapper
+    .qa-item-inner-wrapper
+    .qa-element-list
+    .qa-download-option
+    .qa-download-option-one
+    h3 {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 2.625rem;
+    margin: 0px 15px;
+}
+
+@media (max-width: 767.5px) {
+    .qa-wrapper .qa-section-title,
+    .about-jade-details h3 {
+        font-size: 1.6rem !important;
+        line-height: 2.3rem !important;
+    }
+    .qa-wrapper
+        .qa-item-wrapper
+        .qa-item-inner-wrapper
+        .qa-element-list
+        .list-title {
+        font-weight: 700;
+        font-size: 1.3rem;
+        font-family: "Open Sans";
+        line-height: 2.1rem;
+    }
+    .qa-wrapper .qa-item-wrapper .qa-item-inner-wrapper{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 617px) {
+    .qa-wrapper
+        .qa-item-wrapper
+        .qa-item-inner-wrapper
+        .qa-element-list
+        .qa-download-option
+        .qa-download-option-one {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .qa-wrapper
+        .qa-item-wrapper
+        .qa-item-inner-wrapper
+        .qa-element-list
+        .qa-download-option
+        .qa-download-option-one
+        .qa-download-img {
+        width: 25px;
+        height: 25px;
+    }
+    .qa-wrapper
+        .qa-item-wrapper
+        .qa-item-inner-wrapper
+        .qa-element-list
+        .qa-download-option
+        .qa-download-option-one
+        h3 {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+    .swiper-button-prev {
+        left: 0 !important;
+    }
+    .swiper-button-next {
+        right: 0 !important;
+    }
+}

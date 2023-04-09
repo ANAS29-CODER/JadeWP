@@ -1,0 +1,106 @@
+.apply-carers-container {
+    margin-bottom: 70px;
+}
+.apply-carers-container .carers-blue-header {
+    width: 100%;
+    height: 32.3vw;
+    margin-bottom: 9.51vw;
+    background-color: var(--primary-color);
+    position: relative;
+}
+.title {
+    top: 50%;
+}
+.margin-zero{
+    margin-bottom: 0px !important;
+}
+.margin-bottom-140{
+    margin-bottom: 9.722vw !important;
+}
+.margin-top-54{
+   margin-top:  3.75vw !important;
+}
+.page-container{
+    margin-bottom: 8.75vw !important;
+}
+.page-container .inner-page-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 45px;
+    min-width: 320px;
+}
+.page-container .inner-page-container .header-section {
+    width: 58vw !important;
+    margin-bottom: 0px !important;
+}
+.page-container .inner-page-container .header-section h2{
+  margin-bottom: 2.78vw !important;
+}
+.page-container .inner-page-container p,
+.page-container .inner-page-container .inner-container {
+    margin-bottom: 5.28vw;
+}
+.page-container .inner-page-container .inner-container h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    color: #000000;
+    font-size: 1em;
+    margin-bottom: 54px;
+}
+
+.page-container .inner-page-container .inner-container p,
+.page-container .inner-page-container .inner-container ul {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.page-container .inner-page-container .inner-container ul {
+    list-style: none;
+}
+
+.page-container .inner-page-container .inner-container ul li:before {
+    content: url("../assets/icons/true-icon.svg");
+    display: inline-block;
+    font-size: 15px;
+    margin-left: -2em;
+    padding-right:23px;
+    line-height: 43px;
+}
+
+.form-btn {
+    width: 230px;
+    padding: 20px;
+}
+.form-container {
+    width: 45%;
+    height: 100%;
+    min-width: 300px;
+}
+.form-container .input-container {
+    border-bottom: 0.5px solid var(--black-color);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.input-container input,
+.input-container textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: "Open Sans";
+    line-height: 160%;
+}
+
+@media (max-width: 1000px) {
+    .page-container .inner-page-container {
+        font-size: 25px;
+    }
+}

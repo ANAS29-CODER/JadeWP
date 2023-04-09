@@ -1,0 +1,104 @@
+.service-img {
+    width: 100%;
+    height: 38.88888889vw;
+    margin-bottom: 4.93vw;
+}
+.service-container {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 9.17vw;
+}
+.H3 {
+    margin-bottom: 2.57vw;
+}
+ol, ul{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 30px !important;
+}
+.service-container .service-header .service-header-description {
+    font-family: "Open Sans";
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    color: var(--black-color);
+    margin-bottom:calc( 7.22vw - 50px);
+    width: 97%;
+}
+li::marker {
+
+    font-size: 1rem;
+}
+
+.service-container .service-body .service-body-row .service-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    padding-top: 50px;
+}
+.service-container  .service-body-row .service-content h3 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.113rem;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    color: var(--black-color);
+}
+.service-container .service-body-row .service-content a {
+    display: flex;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.563rem;
+    font-family: "Open Sans";
+    color: var(--primary-color);
+    padding-left: 12px;
+}
+.service-container .service-body-row .service-content a img {
+    padding-right: 10px;
+}
+.service-container
+    .service-body
+    .service-body-row
+    .service-content
+    .service-elements-img {
+    padding-left: 12px;
+}
+.service-container .service-body-row .service-content li {
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: "Open Sans";
+    line-height: 29px;
+    color: var(--black-color);
+}
+/* .service-container
+    .service-body
+    .service-body-row
+    .service-content
+    ul
+    li:before {
+    content: ".";
+    display: inline-block;
+    font-size: 40px;
+    margin-left: -20px;
+    padding-right: 7px;
+} */
+.service-container .service-body-row .service-content ul {
+    width: 230px;
+    /* list-style: none; */
+}
+
+a:hover {
+    color: var(--primary-color) !important;
+}
+
+@media (max-width: 767.5px) {
+    .H3 {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+    }
+}

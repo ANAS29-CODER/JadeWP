@@ -1,0 +1,11 @@
+{
+  "require": {
+    "lightsource/acf-groups": "^10.6.0",
+    "yahnis-elsts/plugin-update-checker": "^4.13"
+  },
+  "autoload": {
+    "psr-4": {
+      "org\\wplake\\acf_views\\": "../src"
+    }
+  }
+}
