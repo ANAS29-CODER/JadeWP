@@ -6,7 +6,7 @@ get_header();
 
 
 
-<?php if (is_page('home')) :     ?>
+<?php if (is_page('home')) :   ?>
 
     <?php get_template_part('loop-templates/page', 'slider'); ?>
 
@@ -40,15 +40,21 @@ get_header();
 <?php else : ?>
 
     <div class="header-img-wrapper">
-        <h1 style="color:white;" class="title-feature-image"><?php the_field('title_feature_image'); ?></h1>
+        <h1 style="color:white; z-index:2;top: 17.63vw;" class="title-feature-image"><?php the_field('title_feature_image'); ?></h1>
         <?php if (has_post_thumbnail()) : ?>
 
             <?php the_post_thumbnail('post-thumbnail', array('style' => 'width:100%;')); ?>
         <?php else : ?>
 
-
             <?php if (!is_page('contacts')) : ?>
-                <img src="<?php echo get_theme_file_uri('assets/images/about-us.png') ?>" alt="Default Photo" style="width: 100%;">
+                <div class="carers-blue-header" style="    width: 100%;
+    height: 32.3vw;
+    margin-bottom: 9.51vw;
+    background-color: var(--primary-color);
+    position: relative;">
+
+                </div>
+                <!-- <img src="<?php echo get_theme_file_uri('assets/images/about-us.png') ?>" alt="Default Photo" style="width: 100%;"> -->
             <?php endif; ?>
 
 
