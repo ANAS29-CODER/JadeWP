@@ -14,10 +14,14 @@
     <link rel="stylesheet" href="<?php echo get_theme_file_uri('/assets/css/home.css') ?>" />
     <link rel="stylesheet" href="<?php echo get_theme_file_uri('/assets/css/qa-wrapper-section.css') ?>" />
 
-    <?php if ( strpos( $_SERVER['REQUEST_URI'], 'jade_services' ) !== false ) {?>
-    <link rel="stylesheet" href="<?php echo get_theme_file_uri('/assets/css/service.css') ?>" />
-    <?php }?>
-    
+    <?php if (strpos($_SERVER['REQUEST_URI'], 'jade_services') !== false) { ?>
+        <link rel="stylesheet" href="<?php echo get_theme_file_uri('/assets/css/service.css') ?>" />
+    <?php } ?>
+
+    <?php if (strpos($_SERVER['REQUEST_URI'], 'careers') !== false) { ?>
+        <link rel="stylesheet" href="<?php echo get_theme_file_uri('/assets/css/carers.css') ?>" />
+    <?php } ?>
+
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,9 +41,10 @@
             #menu-header-menu li a {
                 color: black;
             }
+
             input[value="Send Message"] {
                 margin-top: 86px !important;
-          }
+            }
         </style>
 
     <?php else : ?>
@@ -75,7 +80,7 @@
             <div class="container">
                 <a class="navbar-brand" href="/home">
                     <?php if (is_page('contacts')) : ?>
-                        
+
                         <img src="<?php echo get_theme_file_uri('assets/icons/black-logo.svg'); ?>" class="nav-bar-black-logo" style="width:142px;display:unset !important;" />
                     <?php else : ?>
 
@@ -100,30 +105,6 @@
 
                     )); ?>
 
-                    <!-- <ul class="navbar-nav ms-auto h-full">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./home.html"> Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./about.html">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./service.html">Services</a>
-                        </li>
-                        <li class="nav-item dropdown media">
-                            <a class="nav-link" href="#">Media</a>
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-item"><a href="./photo_gallery.html">Photo Gallery</a></li>
-                                <li class="dropdown-item"><a href="./latest_news.html">Latest News </a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./carers.html">Careers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">Contacts</a>
-                        </li>
-                    </ul> -->
                 </div>
             </div>
         </nav>

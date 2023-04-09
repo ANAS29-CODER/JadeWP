@@ -65,7 +65,8 @@
 }
 
 .page-container .inner-page-container .inner-container ul li:before {
-    content: url("../assets/icons/true-icon.svg");
+    content: url("../icons/true-icon.svg");
+    /* content: url("<?php echo get_theme_file_uri(); ?>../icons/true-icon.svg"); */
     display: inline-block;
     font-size: 15px;
     margin-left: -2em;
