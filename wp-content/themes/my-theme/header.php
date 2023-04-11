@@ -18,9 +18,14 @@
         <link rel="stylesheet" href="<?php echo get_theme_file_uri('/assets/css/service.css') ?>" />
     <?php } ?>
 
+    <?php if (strpos($_SERVER['REQUEST_URI'], 'latest-news') !== false) { ?>
+        <link rel="stylesheet" href="<?php echo get_theme_file_uri('/assets/css/latest_news.css') ?>" />
+    <?php } ?>
+
     <?php if (strpos($_SERVER['REQUEST_URI'], 'careers') !== false) { ?>
         <link rel="stylesheet" href="<?php echo get_theme_file_uri('/assets/css/carers.css') ?>" />
     <?php } ?>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
@@ -32,7 +37,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-    <?php if (is_page('contacts')) : ?>
+    <?php if (is_page('contacts') || is_page('latest-news')) : ?>
         <style>
             .custom-header-nav {
                 position: unset !important;
@@ -79,7 +84,7 @@
         <nav class="navbar navbar-expand-lg navbar-light h-full">
             <div class="container">
                 <a class="navbar-brand" href="/home">
-                    <?php if (is_page('contacts')) : ?>
+                    <?php if (is_page('contacts') || is_page('latest-news')) : ?>
 
                         <img src="<?php echo get_theme_file_uri('assets/icons/black-logo.svg'); ?>" class="nav-bar-black-logo" style="width:142px;display:unset !important;" />
                     <?php else : ?>

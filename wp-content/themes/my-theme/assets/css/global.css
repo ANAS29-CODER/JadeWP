@@ -876,3 +876,58 @@ main .wp-block-cover .wp-block-cover__background{
 
 
 
+#menu-header-menu .dropdown-menu>li a {
+    padding: 7px 20px !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 144%;
+}
+
+.caption-style-card{
+    display: none !important;
+}
+
+#gallery .eael-gallery-grid-item .gallery-item-thumbnail-wrap{
+    height: 326px;
+}
+
+#gallery .eael-gallery-grid-item .gallery-item-thumbnail-wrap img{
+    width: 361px !important;
+    height: 326px !important;
+}
+
+#gallery .eael-filterable-gallery-item-wrap .eael-gallery-grid-item .gallery-item-thumbnail-wrap>img {
+
+    object-fit: fill;
+}
+
+#pagination-news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#pagination-news .current{
+    text-decoration: underline;
+}
+
+#pagination-news a.prev {
+    position: absolute;
+    left: 0%;
+}
+
+#pagination-news a.next {
+    position: absolute;
+    right: 0%;
+}
+
+#pagination-news .page-numbers {
+    display: block;
+    margin: 0 5px;
+    color: black;
+    font-weight: 700;
+    padding: 0.375rem;
+}
+
