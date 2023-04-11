@@ -46,7 +46,7 @@ get_header();
             <?php the_post_thumbnail('post-thumbnail', array('style' => 'width:100%;')); ?>
         <?php else : ?>
 
-            <?php if (!is_page('contacts')) : ?>
+            <?php if (!is_page('contacts') && !is_page('latest-news')) : ?>
                 <div class="carers-blue-header" style="    width: 100%;
     height: 32.3vw;
     margin-bottom: 9.51vw;

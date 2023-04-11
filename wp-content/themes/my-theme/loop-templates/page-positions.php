@@ -69,4 +69,3 @@ else :
 endif;
 ?>
 
-class:form-btn class:text-capitalize

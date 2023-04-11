@@ -172,3 +172,27 @@ function add_custom_css_to_career_single_post() {
   }
 }
 add_action('wp_enqueue_scripts', 'add_custom_css_to_career_single_post');
+
+/************************************************************************************************************** */
+
+//Change the submenu class in menus
+function change_submenu_class($menu) {
+  $menu = preg_replace('/ class="sub-menu"/',' class="dropdown-menu"',$menu);
+  return $menu;
+}
+add_filter('wp_nav_menu', 'change_submenu_class');
+
+
+
+/************************************************************************************************************** */
+
+// Add certificate post type to use in shortcode
+
+function news_shortcode() {
+  ob_start();
+  include 'loop-templates/page-news.php';
+  return ob_get_clean();
+}
+add_shortcode( 'news', 'news_shortcode' );
+
+/************************************************************************************************************** */
